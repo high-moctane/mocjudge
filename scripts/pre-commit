@@ -1,0 +1,20 @@
+#!/bin/bash -xe
+
+# back
+echo "back start"
+cd back
+npm run lint
+cd ..
+echo "back end"
+
+
+# front
+echo "front start"
+cd front
+npm run lint
+cd ..
+echo "front end"
+
+
+# end
+echo "done"
